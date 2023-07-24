@@ -36,11 +36,16 @@ wget https://az764295.vo.msecnd.net/stable/b06ae3b2d2dbfe28bca3134cc6be65935cdfe
 
 2.使用“软件包安装器”，安装刚刚下载的“VS Code”
 
-3.使用如下路径下载“搜狗拼音输入法”。下载路径：https://ime.sogouimecdn.com/202207182258/2d79bf492126e5f413fd2e0dbe8508f5/dl/gzindex/1656597217/sogoupinyin_4.0.1.2800_x86_64.deb
-
+3.使用如下路径下载“搜狗拼音输入法”。下载路径：
+```
+wget https://ime.sogouimecdn.com/202207182258/2d79bf492126e5f413fd2e0dbe8508f5/dl/gzindex/1656597217/sogoupinyin_4.0.1.2800_x86_64.deb
+```
 4.使用“软件包安装器”，安装刚刚下载的“搜狗拼音输入法”
 
-5.使用如下路径下载“网易云音乐”。下载路径：https://d1.music.126.net/dmusic/netease-cloud-music_1.2.0_amd64_deepin_stable_20190424.deb
+5.使用如下路径下载“网易云音乐”。下载路径：
+```
+wget https://d1.music.126.net/dmusic/netease-cloud-music_1.2.0_amd64_deepin_stable_20190424.deb
+```
 
 6.使用“软件包安装器”，安装刚刚下载的“网易云音乐”
 
