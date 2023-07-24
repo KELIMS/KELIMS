@@ -29,7 +29,10 @@ apt upgrade
 
 任务5-使用软件包安装器安装常用软件
 
-1.使用如下路径下载“VS Code”。下载路径：https://az764295.vo.msecnd.net/stable/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/code_1.69.1-1657615746_amd64.deb
+1.使用如下路径下载“VS Code”。下载路径：
+```
+wget https://az764295.vo.msecnd.net/stable/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/code_1.69.1-1657615746_amd64.deb
+```
 
 2.使用“软件包安装器”，安装刚刚下载的“VS Code”
 
