@@ -208,7 +208,6 @@ tar -zxvf jdk-13_linux-x64_bin.tar.gz
 ```
 mv jdk-18 /opt/
 ```
-```
 5.在“终端模式”中，配置“JDK”环境变量
 ```
 vim /etc/profile.d/jdk.sh
