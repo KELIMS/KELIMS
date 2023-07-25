@@ -90,28 +90,31 @@ apt remove python*
 ```
 (ls *.docs)
 
-3.使用如下路径下载“Python安装包”。下载路径：“https://repo.huaweicloud.com/python/3.9.9/Python-3.9.9.tar.xz” 
-
+3.使用如下路径下载“Python安装包”。下载路径：
+```
+wget https://repo.huaweicloud.com/python/3.9.9/Python-3.9.9.tar.xz
+```
 4在“终端模式”中，使用编译的方式安装刚刚下载的“Python” 
 
 ①解压
-
+```
 tar -Jxvf Python-3.9.9.tar.xz
-
+```
 ②检查配置
-
+```
 cd Python-3.9.9
-
+```
+```
 ./configure
-
+```
 ③编译
-
+```
 make
-
+```
 ④安装
-
+```
 make install
-
+```
 5.在“终端模式”中，配置“Python”环境变量
 
 mv /tmp/Python-3.9.9 /opt/
