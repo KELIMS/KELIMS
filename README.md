@@ -50,16 +50,27 @@ wget https://d1.music.126.net/dmusic/netease-cloud-music_1.2.0_amd64_deepin_stab
 6.使用“软件包安装器”，安装刚刚下载的“网易云音乐”
 
 在每小题下面截图体现出上述要求，截图数量不限
-任务6-使用终端模式安装常用软件
-1.使用如下路径下载“WPS Office 2019”。下载路径：https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2019/11664/wps-office_11.1.0.11664_amd64.deb
-2.在“终端模式”中，安装刚刚下载的“WPS Office 2019”
-apt install ./wps-office_11.1.0.11664_amd64.deb
-3.使用如下路径下载“MindMaster”。下载路径：https://www.edrawsoft.cn/2download/x86_64/mindmaster_9.0.4_cn.x86_64.deb
 
+任务6-使用终端模式安装常用软件
+
+1.使用如下路径下载“WPS Office 2019”。下载路径：
+```
+https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2019/11664/wps-office_11.1.0.11664_amd64.deb
+```
+2.在“终端模式”中，安装刚刚下载的“WPS Office 2019”
+```
+apt install ./wps-office_11.1.0.11664_amd64.deb
+```
+3.使用如下路径下载“MindMaster”。下载路径：
+```
+https://www.edrawsoft.cn/2download/x86_64/mindmaster_9.0.4_cn.x86_64.deb
+```
 4.在“终端模式”中，安装刚刚下载的“MindMaster”
+
 在每小题下面截图体现出上述要求，截图数量不限
 
 任务7-使用终端模式安装Python并配置环境变量
+
 1.在“终端模式”中，检查操作系统中现有版本的“Python” 
 python 或 python -V 或者 which python
 python3 或 python3 -V 或者 which python3
