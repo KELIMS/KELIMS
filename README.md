@@ -66,6 +66,9 @@ apt install ./wps-office_11.1.0.11664_amd64.deb
 wget https://www.edrawsoft.cn/2download/x86_64/mindmaster_9.0.4_cn.x86_64.deb
 ```
 4.在“终端模式”中，安装刚刚下载的“MindMaster”
+```
+apt install ./mindmaster_9.0.4_cn.x86_64.deb
+```
 
 在每小题下面截图体现出上述要求，截图数量不限
 
