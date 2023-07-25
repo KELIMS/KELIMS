@@ -155,6 +155,12 @@ tar -zxvf pycharm-community-2022.1.3.tar.gz
 ```
 mv pycharm-community-2022.1.3 /opt/
 ```
+```
+cd /opt/pycharm/bin/
+```
+```
+./pycharm.sh
+```
 3.启动“Pycharm Community”，在plugins中输入 chinese 中出现有chinese-language..并安装“中文语言包” 
 
 4.在桌面创建“Pycharm Community”的快捷方式
