@@ -86,7 +86,6 @@ apt list --installed *python*
 ```
 2.在“终端模式”中，卸载操作系统中现有的所有“Python”
 ```
-```
 apt remove python2 python3
 ```
 (ls *.docs)
