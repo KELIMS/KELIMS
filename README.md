@@ -123,11 +123,14 @@ make install
 mv /tmp/Python-3.9.9 /opt/
 
 cd /etc/profile.d/
-
+```
+```
 vim python.sh
-
+```
+```
 export PATH=$PATH:/opt/Python-3.9.9
-
+```
+```
 source /etc/profile
 ```
 6.在“终端模式”中，验证当前操作系统中的“Python”版本
