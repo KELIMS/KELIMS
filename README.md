@@ -148,6 +148,9 @@ python3
 ```
 wget https://download.jetbrains.com.cn/python/pycharm-community-2022.1.3.tar.gz
 ```
+```
+tar -zxvf pycharm-community-2022.1.3.tar.gz
+```
 2.在“终端模式”中，安装“Pycharm Community” 
 ```
 mv pycharm-community-2022.1.3 /opt/
