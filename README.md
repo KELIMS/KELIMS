@@ -100,6 +100,9 @@ wget https://repo.huaweicloud.com/python/3.9.9/Python-3.9.9.tar.xz
 ```
 tar -Jxvf Python-3.9.9.tar.xz
 ```
+```
+tar -Zxvf tar.gz
+```
 ②检查配置
 ```
 cd Python-3.9.9
@@ -116,7 +119,7 @@ make
 make install
 ```
 5.在“终端模式”中，配置“Python”环境变量
-
+```
 mv /tmp/Python-3.9.9 /opt/
 
 cd /etc/profile.d/
@@ -126,7 +129,7 @@ vim python.sh
 export PATH=$PATH:/opt/Python-3.9.9
 
 source /etc/profile
-
+```
 6.在“终端模式”中，验证当前操作系统中的“Python”版本
 
 python3
