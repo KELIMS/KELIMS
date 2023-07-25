@@ -75,10 +75,15 @@ apt install ./mindmaster_9.0.4_cn.x86_64.deb
 任务7-使用终端模式安装Python并配置环境变量
 
 1.在“终端模式”中，检查操作系统中现有版本的“Python” 
+```
 python 或 python -V 或者 which python
+```
+```
 python3 或 python3 -V 或者 which python3
+```
+```
 apt list --installed *python*
-
+```
 2.在“终端模式”中，卸载操作系统中现有的所有“Python”
 apt remove python2 python3
 (ls *.docs)
