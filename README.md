@@ -55,7 +55,7 @@ wget https://d1.music.126.net/dmusic/netease-cloud-music_1.2.0_amd64_deepin_stab
 
 1.使用如下路径下载“WPS Office 2019”。下载路径：
 ```
-https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2019/11664/wps-office_11.1.0.11664_amd64.deb
+wget https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2019/11664/wps-office_11.1.0.11664_amd64.deb
 ```
 2.在“终端模式”中，安装刚刚下载的“WPS Office 2019”
 ```
@@ -63,7 +63,7 @@ apt install ./wps-office_11.1.0.11664_amd64.deb
 ```
 3.使用如下路径下载“MindMaster”。下载路径：
 ```
-https://www.edrawsoft.cn/2download/x86_64/mindmaster_9.0.4_cn.x86_64.deb
+wget https://www.edrawsoft.cn/2download/x86_64/mindmaster_9.0.4_cn.x86_64.deb
 ```
 4.在“终端模式”中，安装刚刚下载的“MindMaster”
 
