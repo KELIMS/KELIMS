@@ -187,32 +187,40 @@ Icon=/opt/pycharm-community-2022.1.3/bin/pycharm.png
 任务9-使用终端模式安装 JDK Java Development Kit） 并配置环境变量
 
 1.在“终端模式”中，检查操作系统中现有版本的“JDK” 
+```
 java -version
-
+```
 2.在“终端模式”中，卸载操作系统中现有的所有“JDK”
+```
 apt list --installed *jdk*
+```
+```
 apt remvoe openjdk*
-
-3.使用如下路径下载“JDK安装包”。下载路径：https://repo.huaweicloud.com/java/jdk/13+33/jdk-13_linux-x64_bin.tar.gz
-
+```
+3.使用如下路径下载“JDK安装包”。下载路径：
+```
+wget https://repo.huaweicloud.com/java/jdk/13+33/jdk-13_linux-x64_bin.tar.gz
+```
 4.在“终端模式”中，安装刚刚下载的“JDK” 
-
+```
 tar -zxvf jdk-13_linux-x64_bin.tar.gz
-
+```
+```
 mv jdk-18 /opt/
-
+```
+```
 5.在“终端模式”中，配置“JDK”环境变量
-
+```
 vim /etc/profile.d/jdk.sh
-
+```
 填写
-
+```
 export PATH=$PATH:/opt/jdk-18/bin/
-
+```
 6.在“终端模式”中，验证当前操作系统中的“JDK”版本
-
+```
 java -version
-
+```
 在每小题下面截图体现出上述要求，截图数量不限
 
 任务10-使用终端模式安装IntelliJ IDEA Community
