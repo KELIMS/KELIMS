@@ -85,7 +85,10 @@ python3 或 python3 -V 或者 which python3
 apt list --installed *python*
 ```
 2.在“终端模式”中，卸载操作系统中现有的所有“Python”
+```
+```
 apt remove python2 python3
+```
 (ls *.docs)
 
 3.使用如下路径下载“Python安装包”。下载路径：“https://repo.huaweicloud.com/python/3.9.9/Python-3.9.9.tar.xz” 
