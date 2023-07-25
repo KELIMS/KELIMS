@@ -164,7 +164,26 @@ cd /opt/pycharm/bin/
 3.启动“Pycharm Community”，在plugins中输入 chinese 中出现有chinese-language..并安装“中文语言包” 
 
 4.在桌面创建“Pycharm Community”的快捷方式
+
+在桌面复制一个现有的快捷方式
+```
+cp deepin-forum.desktop pycharm.desktop
+```
+```
+vim pycharm.desktop
+```
+```
+[Desktop Entry]
+Conmment=deepin forum desktop file
+Exec=/opt/pycharm-community-2022.1.3/bin/pycharm.sh
+Name[zh]=pycharm
+Type=Application
+X-Deepin-Vendor=deepin
+Icon=/opt/pycharm-community-2022.1.3/bin/pycharm.png
+```
+
 在每小题下面截图体现出上述要求，截图数量不限
+
 任务9-使用终端模式安装 JDK Java Development Kit） 并配置环境变量
 
 1.在“终端模式”中，检查操作系统中现有版本的“JDK” 
