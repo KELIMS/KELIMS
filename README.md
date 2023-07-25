@@ -144,10 +144,14 @@ python3
 
 任务8-使用终端模式安装Pycharm Community
 
-1.使用如下路径下载“Pycharm Community”。下载路径：https://download.jetbrains.com.cn/python/pycharm-community-2022.1.3.tar.gz
+1.使用如下路径下载“Pycharm Community”。下载路径：
+```
+wget https://download.jetbrains.com.cn/python/pycharm-community-2022.1.3.tar.gz
+```
 2.在“终端模式”中，安装“Pycharm Community” 
+```
 mv pycharm-community-2022.1.3 /opt/
-
+```
 3.启动“Pycharm Community”，在plugins中输入 chinese 中出现有chinese-language..并安装“中文语言包” 
 
 4.在桌面创建“Pycharm Community”的快捷方式
