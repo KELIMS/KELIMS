@@ -206,7 +206,7 @@ wget https://repo.huaweicloud.com/java/jdk/13+33/jdk-13_linux-x64_bin.tar.gz
 tar -zxvf jdk-13_linux-x64_bin.tar.gz
 ```
 ```
-mv jdk-18 /opt/
+mv jdk-13 /opt/
 ```
 5.在“终端模式”中，配置“JDK”环境变量
 ```
