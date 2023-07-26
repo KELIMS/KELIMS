@@ -142,13 +142,14 @@ vim python.sh
 ```
 export PATH=$PATH:/opt/Python-3.9.9
 ```
+重新加载系统变量
 ```
 source /etc/profile
 ```
 6.在“终端模式”中，验证当前操作系统中的“Python”版本
-
+```
 python3
-
+```
 在每小题下面截图体现出上述要求，截图数量不限
 
 任务8-使用终端模式安装Pycharm Community
@@ -223,7 +224,11 @@ vim /etc/profile.d/jdk.sh
 ```
 填写
 ```
-export PATH=$PATH:/opt/jdk-18/bin/
+export PATH=$PATH:/opt/jdk-13/bin/
+```
+重新加载系统变量
+```
+source /etc/profile
 ```
 6.在“终端模式”中，验证当前操作系统中的“JDK”版本
 ```
