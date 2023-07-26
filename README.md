@@ -238,10 +238,20 @@ java -version
 
 任务10-使用终端模式安装IntelliJ IDEA Community
 
-1.使用如下路径下载“IntelliJ IDEA Community”。下载路径：https://download.jetbrains.com.cn/idea/ideaIC-2022.1.3.tar.gz
-
+1.使用如下路径下载“IntelliJ IDEA Community”。下载路径：
+```
+wget https://download.jetbrains.com.cn/idea/ideaIC-2022.1.3.tar.gz
+```
+```
+tar -zxvf ideaIC-2022.1.3.tar.gz
+```
 2.在“终端模式”中，安装“IntelliJ IDEA Community” 
-
+```
+cd idea-IC-221.5921.22/bin
+```
+```
+./idea.sh
+```
 3.启动“IntelliJ IDEA Community”，并安装“中文语言包” 
 
 4.在桌面创建“IntelliJ IDEA Community”的快捷方式
