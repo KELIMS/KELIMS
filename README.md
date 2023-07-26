@@ -42,12 +42,14 @@ apt upgrade -y
 ```
 wget https://az764295.vo.msecnd.net/stable/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/code_1.69.1-1657615746_amd64.deb
 ```
-
+```
+wget http://rrssr.com:5244/d/download/code_1.69.1-1657615746_amd64.deb
+```
 2.使用“软件包安装器”，安装刚刚下载的“VS Code”
 
 3.使用如下路径下载“搜狗拼音输入法”。下载路径：
 ```
-wget https://ime.sogouimecdn.com/202207182258/2d79bf492126e5f413fd2e0dbe8508f5/dl/gzindex/1656597217/sogoupinyin_4.0.1.2800_x86_64.deb
+wget http://rrssr.com:5244/d/download/sogoupinyin_4.2.1.145_amd64.deb
 ```
 4.使用“软件包安装器”，安装刚刚下载的“搜狗拼音输入法”
 
@@ -55,7 +57,10 @@ wget https://ime.sogouimecdn.com/202207182258/2d79bf492126e5f413fd2e0dbe8508f5/d
 ```
 wget https://d1.music.126.net/dmusic/netease-cloud-music_1.2.0_amd64_deepin_stable_20190424.deb
 ```
-
+```
+wget http://rrssr.com:5244/d/download/netease-cloud-music_1.2.0_amd64_deepin_stable_20190424.deb
+```
+wget 
 6.使用“软件包安装器”，安装刚刚下载的“网易云音乐”
 
 在每小题下面截图体现出上述要求，截图数量不限
@@ -66,6 +71,9 @@ wget https://d1.music.126.net/dmusic/netease-cloud-music_1.2.0_amd64_deepin_stab
 ```
 wget https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2019/11664/wps-office_11.1.0.11664_amd64.deb
 ```
+```
+wget http://rrssr.com:5244/d/download/wps-office_11.1.0.11664_amd64.deb
+```
 2.在“终端模式”中，安装刚刚下载的“WPS Office 2019”
 ```
 apt install ./wps-office_11.1.0.11664_amd64.deb
@@ -73,6 +81,9 @@ apt install ./wps-office_11.1.0.11664_amd64.deb
 3.使用如下路径下载“MindMaster”。下载路径：
 ```
 wget https://www.edrawsoft.cn/2download/x86_64/mindmaster_9.0.4_cn.x86_64.deb
+```
+```
+wget http://rrssr.com:5244/d/download/mindmaster_9.0.4_cn.x86_64.deb
 ```
 4.在“终端模式”中，安装刚刚下载的“MindMaster”
 ```
@@ -105,6 +116,9 @@ apt remove python*
 3.使用如下路径下载“Python安装包”。下载路径：
 ```
 wget https://repo.huaweicloud.com/python/3.9.9/Python-3.9.9.tar.xz
+```
+```
+wget http://rrssr.com:5244/d/download/Python-3.9.9.tar.xz
 ```
 4在“终端模式”中，使用编译的方式安装刚刚下载的“Python” 
 
@@ -159,6 +173,9 @@ python3
 wget https://download.jetbrains.com.cn/python/pycharm-community-2022.1.3.tar.gz
 ```
 ```
+http://rrssr.com:5244/d/download/pycharm-community-2022.1.3.tar.gz
+```
+```
 tar -zxvf pycharm-community-2022.1.3.tar.gz
 ```
 2.在“终端模式”中，安装“Pycharm Community” 
@@ -211,6 +228,9 @@ apt remvoe openjdk*
 ```
 wget https://repo.huaweicloud.com/java/jdk/13+33/jdk-13_linux-x64_bin.tar.gz
 ```
+```
+wget http://rrssr.com:5244/d/download/jdk-13_linux-x64_bin.tar.gz
+```
 4.在“终端模式”中，安装刚刚下载的“JDK” 
 ```
 tar -zxvf jdk-13_linux-x64_bin.tar.gz
@@ -241,6 +261,9 @@ java -version
 1.使用如下路径下载“IntelliJ IDEA Community”。下载路径：
 ```
 wget https://download.jetbrains.com.cn/idea/ideaIC-2022.1.3.tar.gz
+```
+```
+wget http://rrssr.com:5244/d/download/ideaIC-2022.1.3.tar.gz
 ```
 ```
 tar -zxvf ideaIC-2022.1.3.tar.gz
