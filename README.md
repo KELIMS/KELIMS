@@ -43,13 +43,13 @@ apt upgrade -y
 wget https://az764295.vo.msecnd.net/stable/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/code_1.69.1-1657615746_amd64.deb
 ```
 ```
-wget http://rrssr.com:5244/d/189/code_1.69.1-1657615746_amd64.deb
+wget http://rrssr.com:5244/p/d/code_1.69.1-1657615746_amd64.deb
 ```
 2.使用“软件包安装器”，安装刚刚下载的“VS Code”
 
 3.使用如下路径下载“搜狗拼音输入法”。下载路径：
 ```
-wget http://rrssr.com:5244/d/189/sogoupinyin_4.2.1.145_amd64.deb
+wget http://rrssr.com:5244/p/d/sogoupinyin_4.2.1.145_amd64.deb
 ```
 4.使用“软件包安装器”，安装刚刚下载的“搜狗拼音输入法”
 
@@ -58,7 +58,7 @@ wget http://rrssr.com:5244/d/189/sogoupinyin_4.2.1.145_amd64.deb
 wget https://d1.music.126.net/dmusic/netease-cloud-music_1.2.0_amd64_deepin_stable_20190424.deb
 ```
 ```
-wget http://rrssr.com:5244/d/189/netease-cloud-music_1.2.0_amd64_deepin_stable_20190424.deb
+wget http://rrssr.com:5244/p/d/netease-cloud-music_1.2.0_amd64_deepin_stable_20190424.deb
 ```
 wget 
 6.使用“软件包安装器”，安装刚刚下载的“网易云音乐”
@@ -72,7 +72,7 @@ wget
 wget https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2019/11664/wps-office_11.1.0.11664_amd64.deb
 ```
 ```
-wget http://rrssr.com:5244/d/189/wps-office_11.1.0.11664_amd64.deb
+wget http://rrssr.com:5244/p/d/wps-office_11.1.0.11664_amd64.deb
 ```
 2.在“终端模式”中，安装刚刚下载的“WPS Office 2019”
 ```
@@ -83,7 +83,7 @@ apt install ./wps-office_11.1.0.11664_amd64.deb
 wget https://www.edrawsoft.cn/2download/x86_64/mindmaster_9.0.4_cn.x86_64.deb
 ```
 ```
-wget http://rrssr.com:5244/d/189/mindmaster_9.0.4_cn.x86_64.deb
+wget http://rrssr.com:5244/p/d/mindmaster_9.0.4_cn.x86_64.deb
 ```
 4.在“终端模式”中，安装刚刚下载的“MindMaster”
 ```
@@ -118,7 +118,7 @@ apt remove python*
 wget https://repo.huaweicloud.com/python/3.9.9/Python-3.9.9.tar.xz
 ```
 ```
-wget http://rrssr.com:5244/d/189/Python-3.9.9.tar.xz
+wget http://rrssr.com:5244/p/d//Python-3.9.9.tar.xz
 ```
 4在“终端模式”中，使用编译的方式安装刚刚下载的“Python” 
 
@@ -173,7 +173,7 @@ python3
 wget https://download.jetbrains.com.cn/python/pycharm-community-2022.1.3.tar.gz
 ```
 ```
-wget http://rrssr.com:5244/d/189/pycharm-community-2022.1.3.tar.gz
+wget http://rrssr.com:5244/p/d/pycharm-community-2022.1.3.tar.gz
 ```
 ```
 tar -zxvf pycharm-community-2022.1.3.tar.gz
@@ -229,7 +229,7 @@ apt remvoe openjdk*
 wget https://repo.huaweicloud.com/java/jdk/13+33/jdk-13_linux-x64_bin.tar.gz
 ```
 ```
-wget http://rrssr.com:5244/d/189/jdk-13_linux-x64_bin.tar.gz
+wget http://rrssr.com:5244/p/d/jdk-13_linux-x64_bin.tar.gz
 ```
 4.在“终端模式”中，安装刚刚下载的“JDK” 
 ```
@@ -263,7 +263,7 @@ java -version
 wget https://download.jetbrains.com.cn/idea/ideaIC-2022.1.3.tar.gz
 ```
 ```
-wget http://rrssr.com:5244/d/189/ideaIC-2022.1.3.tar.gz
+wget http://rrssr.com:5244/p/d/ideaIC-2022.1.3.tar.gz
 ```
 ```
 tar -zxvf ideaIC-2022.1.3.tar.gz
