@@ -173,7 +173,7 @@ python3
 wget https://download.jetbrains.com.cn/python/pycharm-community-2022.1.3.tar.gz
 ```
 ```
-http://rrssr.com:5244/d/189/pycharm-community-2022.1.3.tar.gz
+wget http://rrssr.com:5244/d/189/pycharm-community-2022.1.3.tar.gz
 ```
 ```
 tar -zxvf pycharm-community-2022.1.3.tar.gz
